@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <time.h>
 #include <random>
+
 int Customer::ProRandNum()
 {
 	std::uniform_real_distribution<double> distribution(1, 100);

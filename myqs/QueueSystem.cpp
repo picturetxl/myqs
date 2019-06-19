@@ -361,5 +361,6 @@ QueueSystem::~QueueSystem()
 	for (int i = this->winnum-1; i>0; i--)
 	{
 		delete this->vw[i];
+
 	}
 }

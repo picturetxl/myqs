@@ -22,10 +22,6 @@ int main()
 		cout << a.getCustomerId() << endl;
 	}*/
 
-
-
-	
-
  	QueueSystem qs;
 	qs.init(5);
 	qs.setMaxWaitTime(200);

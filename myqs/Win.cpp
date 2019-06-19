@@ -1,5 +1,6 @@
 #include "Win.h"
 
+
 Win::Win(int winid)
 {
 	this->state = State::IDLE;
